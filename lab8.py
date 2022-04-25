@@ -1,11 +1,12 @@
 
 def countVowels(phrase:str):
     vowels = 0
-    if phrase[0] in "aAeEiIoOuU": 
-        vowels += 1
+    for i in range(0,len(phrase)):
+      if phrase[i] in "aAeEiIoOuU": 
+       vowels += 1
      
     return print("Vowels = ", vowels)
    
 
 
-countVowels("Uama")
+countVowels("lama")
